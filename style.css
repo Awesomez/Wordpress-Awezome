@@ -234,7 +234,7 @@ a.more-link,
 	color: #FFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Microsoft YaHei', sans-serif;
 }
 
 .blog-title a:hover { color: #FF706C; }
@@ -261,9 +261,6 @@ a.more-link,
 	margin-top: 15%;
 	margin-bottom: 15%;
 	background: #272F38;
-	border-radius: 8px 0 0 8px;
-	-moz-border-radius: 8px 0 0 8px;
-	-webkit-border-radius: 8px 0 0 8px;
 }
 
 .blog-menu a { 
@@ -530,7 +527,7 @@ a.more-link,
 .post:first-child,
 .post.page-first-child { border-top: none; }
 
-.post-inner { padding: 8%; }
+.post-inner { padding: 50px; }
 
 /* Featured media --------------------------------------- */
 
@@ -602,7 +599,7 @@ a.more-link,
 
 /* Post header --------------------------------------- */
 
-.post-header { margin-bottom: 6%; }
+.post-header { margin-bottom: 6%;}
 
 .post-meta {
 	font-size: 0.8em;
@@ -622,12 +619,14 @@ a.more-link,
 .post-meta .date-sep { margin: 0 5px; color: #DDD; }
 
 .post-title {
-	font-size: 2.3em;
+	font-size: 1.6em;
 	line-height: 120%;
-	margin-bottom: 15px;
+
 	font-weight: 700;
 	color: #272F38;
-	
+    background: #ddd;
+    margin:0 -50px 5px;
+    padding:15px 50px;
 	 -ms-word-break: break-all;
      word-break: break-word;
 
@@ -759,7 +758,7 @@ a.more-link,
 /* -------------------------------------------------------------------------------- */
 
 
-.post-content { font-size: 1.075em; }
+.post-content { font-size: 1em; }
 
 .post-content a:hover { text-decoration: underline; }
 
@@ -771,7 +770,7 @@ a.more-link,
 .post-content dl,
 .post-content .wp-caption,
 .post-content pre {
-	line-height: 170%;
+	line-height: 150%;
 	margin-bottom: 1.1em;
 }
 

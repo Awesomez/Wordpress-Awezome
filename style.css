@@ -87,9 +87,9 @@ body {
 	margin: 0;
 	padding: 0;
 	border: none;
-	color: #555;
+	color: #000;
 	background: #353E49;
-	font-family: 'Lato', 'Helvetica Neue', sans-serif;
+	font-family:'Helvetica Neue','Microsoft YaHei', sans-serif;
 	font-size: 17px;
 	-webkit-font-smoothing: subpixel-antialiased;
     background-image:url('images/bg.jpg');
@@ -240,7 +240,7 @@ a.more-link,
 .blog-title a:hover { color: #FF706C; }
 
 .blog-description {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Microsoft YaHei',sans-serif;
 	color: rgba(255,255,255,0.5);
 	font-weight: 400;
 	line-height: 120%;
@@ -309,7 +309,7 @@ a.more-link,
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 	font-size: 13px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway','Microsoft YaHei', sans-serif;
 	color: #FFF;
 }
 
@@ -356,7 +356,7 @@ a.more-link,
 .widget_search .searchform #s {
 	padding: 16px 45px 16px 16px;
 	background: #48515C;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', 'Microsoft YaHei',sans-serif;
 	font-size: 1rem;
 	border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -689,7 +689,7 @@ a.more-link,
 	color: #FFF;
 	background: none;
 	font-size: 1.3em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Microsoft YaHei',sans-serif;
 }
 
 .blog .format-quote blockquote p,
@@ -703,7 +703,7 @@ a.more-link,
 	font-size: 0.9rem;
 	text-align: center;
 	letter-spacing: 2px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', 'Microsoft YaHei',sans-serif;
 }
 
 .blog .format-quote blockquote cite,
@@ -816,7 +816,7 @@ a.more-link,
 	line-height: 150%;
 	color: #666;
 	background: #EEE;
-	font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+	font-family: 'Raleway', 'Helvetica Neue','Microsoft YaHei', sans-serif;
 }
 
 .post-content cite {
@@ -1075,6 +1075,7 @@ img.alignright,
 .comments,
 .comment-respond {
 	padding: 8%;
+    background: #fff;
 }
 
 .post + .comments { border-top: 2px solid #EEE; }
@@ -1318,7 +1319,7 @@ li > div.comment {
 	background: #FAFAFA;
 	font-size: 1em;
 	color: #444;
-	font-family: 'Lato', 'Helvetica Neue', sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', 'Microsoft YaHei',sans-serif;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -1363,7 +1364,7 @@ li > div.comment {
 	border: none;
 	background: #272F38;
 	color: #FFF;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato','Microsoft YaHei', sans-serif;
 	font-size: 0.925rem;
 	line-height: 1;
 	border-radius: 4px;
@@ -1427,7 +1428,7 @@ li > div.comment {
 .page-title .name {
 	display: block;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway','Microsoft YaHei', sans-serif;
 	font-size: 1.25em;
 	margin-top: 15px;
 	color: #666;
@@ -1497,7 +1498,7 @@ li > div.comment {
 	padding: 4.5% 12% 4.5% 4.5%;
 	margin: 0;
 	background: #DDD;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato','Microsoft YaHei', sans-serif;
 	font-size: 1.1rem;
 	border: none;
 	border-radius: 6px;

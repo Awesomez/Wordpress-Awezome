@@ -92,6 +92,9 @@ body {
 	font-family: 'Lato', 'Helvetica Neue', sans-serif;
 	font-size: 17px;
 	-webkit-font-smoothing: subpixel-antialiased;
+    background-image:url('images/bg.jpg');
+    background-size:cover;background-attachment:fixed;
+    background-color:#f3f3f3
 }
 
 body a {
@@ -185,29 +188,30 @@ a.more-link,
 /* -------------------------------------------------------------------------------- */
 
 
-.wrapper { 
+.wrapper {
+    float:left;
+    margin-right: 80px;
 	position: relative;
 	width: 100%;
-	margin: 0 auto;
-	background: url('images/1px-white.png') right repeat-y;
-	background-size: 68% auto;
+    background: rgba(0,0,0,0);
 }
 
 .sidebar {
-	width: 32%;
+    position: fixed;
+    background: rgba(70,88,111,0.8);
+	width: 250px;
+    height:100%;
 	float: left;
-	margin: 7.5% 0;
+	padding: 30px 0;
 }
 
 .content {
-	position: relative;
-	width: 68%;
-	float: right;
-	background: #FFF;
+    padding:0 80px;
+    width:auto;
+    margin-left: 250px;
 	z-index: 2;
+    background: rgba(0,0,0,0);
 }
-
-
 /* -------------------------------------------------------------------------------- */
 /*	3. Sidebar
 /* -------------------------------------------------------------------------------- */

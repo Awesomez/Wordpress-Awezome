@@ -212,6 +212,7 @@ a.more-link,
 	z-index: 2;
     background: rgba(0,0,0,0);
 }
+
 /* -------------------------------------------------------------------------------- */
 /*	3. Sidebar
 /* -------------------------------------------------------------------------------- */
@@ -1657,6 +1658,9 @@ img#wpstats { display: none; }
 	
 }
 
+@media (max-width: 1024px) {
+    .content {padding:0;}
+}
 
 @media (max-width: 788px) {
 
@@ -1675,7 +1679,9 @@ img#wpstats { display: none; }
 		clear: both;
 		width: 100%;
 	}
-	
+
+    .content {margin-left: 0;padding:0;}
+
 	/* Sidebar --------------------------------------- */
 	
 	.sidebar { 

@@ -187,8 +187,7 @@ a.more-link,
 
 .wrapper { 
 	position: relative;
-	width: 1160px;
-	max-width: 86%;
+	width: 100%;
 	margin: 0 auto;
 	background: url('images/1px-white.png') right repeat-y;
 	background-size: 68% auto;
@@ -847,8 +846,17 @@ abbr, acronym { cursor: help; }
 
 code, kbd, pre {
 	font-size: 0.85em;
-	background: #EEE;
-	font-family: Menlo, Monaco, monospace;
+	font-family: Menlo, Monaco, monospace,'Microsoft YaHei';
+    display:block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius:    5px;
+    border-radius:         5px;
+    box-shadow: 0 0 1px 1px rgba(100, 100,100, 0.5);
+    color:#CB772F;
+    background: #303030;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 .post-content .highlight {

@@ -35,7 +35,7 @@
 		<?php endif; ?>
 		
 	</div> <!-- /posts -->
-	
+
 	<?php if ( $wp_query->max_num_pages > 1 ) : ?>
 	
 		<div class="archive-nav">
@@ -49,5 +49,4 @@
 		</div> <!-- /post-nav archive-nav -->
 	
 	<?php endif; ?>
-			              	        
 	<?php get_footer(); ?>

@@ -197,6 +197,8 @@ a.more-link,
 }
 
 .sidebar {
+    top:0;
+    left:0;
     position: fixed;
     background: rgba(70,88,111,0.8);
 	width: 250px;

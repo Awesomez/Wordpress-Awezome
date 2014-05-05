@@ -116,9 +116,9 @@ body a:hover {
 img {
     max-width: 100%;
     height: auto;
-    -webkit-box-shadow:1px 1px 3px #292929;
-    -moz-box-shadow:1px 1px 3px #292929;
-    box-shadow:1px 1px 3px #292929;
+    -webkit-box-shadow: #333 0px 0px 6px;
+    -moz-box-shadow: #333 0px 0px 6px;
+    box-shadow: #333 0px 0px 6px;
 }
 
 .hidden { display: none; }

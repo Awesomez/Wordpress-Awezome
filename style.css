@@ -223,18 +223,17 @@ a.more-link,
 .blog-header,
 .blog-menu,
 .sidebar .widgets {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .blog-title a {
     display: block;
     margin-bottom: 10px;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 120%;
     font-weight: 700;
     color: #FFF;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Raleway', 'Microsoft YaHei', sans-serif;
 }
@@ -258,8 +257,8 @@ a.more-link,
 .mobile-menu { display: none; }
 
 .blog-menu {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-top: 15%;
     margin-bottom: 15%;
     background: #272F38;
@@ -290,9 +289,9 @@ a.more-link,
 
 .widget {
     color: #FFF;
-    padding-bottom: 40px;
-    border-bottom: 4px solid rgba(255,255,255,0.1);
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 20px;
     font-size: 0.9em;
 }
 
@@ -353,8 +352,9 @@ a.more-link,
 
 
 .widget_search .searchform #s {
-    padding: 16px 45px 16px 16px;
-    background: #48515C;
+    padding: 10px 45px 10px 16px;
+    background: rgba(0,0,0,0);
+    border:1px solid #64717D;
     font-family: 'Lato', 'Microsoft YaHei',sans-serif;
     font-size: 1rem;
     border-radius: 6px;

@@ -366,7 +366,8 @@ a.more-link,
     color: #FFF;
 }
 
-.widget_search .searchform #s:active { color: #FFF; }
+.widget_search .searchform #s:active { color: #FFF;}
+.widget_search .searchform #s:hover { color: #FFF; border:1px solid #fff;}
 
 .widget_search .searchform .searchsubmit { right: 21px; }
 

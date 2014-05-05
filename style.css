@@ -1932,3 +1932,7 @@ img#wpstats { display: none; }
 
 /*---------------------------------------------------*/
 #disqus_thread{padding:40px;background:#fff}
+.more-link-wrapper {
+    display: block;
+    margin: 10px 0 0;
+}

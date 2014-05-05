@@ -468,4 +468,13 @@ add_action( 'wp_head' , array( 'Wilson_Customize' , 'header_output' ) );
 // Enqueue live preview javascript in Theme Customizer admin screen
 add_action( 'customize_preview_init' , array( 'Wilson_Customize' , 'live_preview' ) );
 
+//////////////////////////////////
+/**
+ * Wrap more link
+ */
+function writr_more_link( $link ) {
+    return '<span class="more-link-wrapper">' . $link . '</span>';
+}
+add_filter( 'the_content_more_link', 'writr_more_link' );
+
 ?>

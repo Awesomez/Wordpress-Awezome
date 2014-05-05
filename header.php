@@ -20,7 +20,10 @@
     <div class="sidebar">
 
         <div class="blog-header">
+    <div id="logo-wrapper">
 
+        <img src="<?=get_template_directory_uri()?>/images/logo.jpg" />
+    </div>
             <h1 class="blog-title">
                 <a href="<?php echo esc_url(home_url()); ?>"
                    title="<?php echo esc_attr(get_bloginfo('title')); ?> &mdash; <?php echo esc_attr(get_bloginfo('description')); ?>"

@@ -231,9 +231,10 @@ a.more-link,
 }
 
 .blog-title a {
+    text-align:center;
     display: block;
     margin-bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 120%;
     font-weight: 700;
     color: #FFF;
@@ -244,10 +245,12 @@ a.more-link,
 .blog-title a:hover { color: #FF706C; }
 
 .blog-description {
+    text-align:center;
     font-family: 'Raleway', 'Microsoft YaHei',sans-serif;
     color: rgba(255,255,255,0.5);
     font-weight: 400;
     line-height: 120%;
+    font-size: 0.8em;
 }
 
 
@@ -1792,7 +1795,7 @@ img#wpstats { display: none; }
 
     /* Header --------------------------------------- */
 
-    .sidebar .blog-header { padding: 50px 0; }
+    .sidebar .blog-header { padding: 20px 0; }
 
     /* Navigation --------------------------------------- */
 
@@ -1938,4 +1941,20 @@ img#wpstats { display: none; }
 .more-link-wrapper {
     display: block;
     margin: 10px 0 0;
+}
+#logo-wrapper{
+    text-align:center
+}
+#logo-wrapper img{
+    width:50%;
+    height:50%;
+    max-width:160px;
+    max-heigth:160px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:    50%;
+    border-radius:         50%;
+    -webkit-box-shadow:1px 1px 2px #292929;
+    -moz-box-shadow:1px 1px 2px #292929;
+    box-shadow:1px 1px 2px #292929;
+    border:2px solid #fff;
 }

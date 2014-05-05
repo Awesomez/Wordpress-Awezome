@@ -980,7 +980,6 @@ img.aligncenter,
 img.alignright,
 .alignright img {
     box-sizing: border-box;
-    padding: 5px;
     border: 1px solid #EEE;
 }
 

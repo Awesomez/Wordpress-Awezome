@@ -88,13 +88,13 @@ body {
     padding: 0;
     border: none;
     color: #000;
-    background: #353E49;
     font-family:'Helvetica Neue','Microsoft YaHei', sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     -webkit-font-smoothing: subpixel-antialiased;
     background-image:url('images/bg.jpg');
-    background-size:cover;background-attachment:fixed;
-    background-color:#f3f3f3
+    background-size:cover;
+	background-attachment:fixed;
+    background-color:#353E49
 }
 
 body a {

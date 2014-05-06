@@ -535,7 +535,7 @@ a.more-link,
 .post:first-child,
 .post.page-first-child { border-top: none; }
 
-.post-inner { padding:20px 50px; }
+.post-inner { padding:20px 50px 40px 50px; }
 
 /* Featured media --------------------------------------- */
 

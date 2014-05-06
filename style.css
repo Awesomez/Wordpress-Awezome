@@ -51,6 +51,13 @@ h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, 
     text-align:left;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(font/opensans.woff) format('woff');
+}
+
 table {
     border-collapse:collapse;
     border-spacing:0;
@@ -88,7 +95,7 @@ body {
     padding: 0;
     border: none;
     color: #000;
-    font-family:'Helvetica Neue','Microsoft YaHei', sans-serif;
+    font-family:'Open Sans','Microsoft YaHei', sans-serif;
     font-size: 16px;
     -webkit-font-smoothing: subpixel-antialiased;
     background-image:url('images/bg.jpg');
@@ -239,14 +246,12 @@ a.more-link,
     font-weight: 700;
     color: #FFF;
     letter-spacing: 1px;
-    font-family: 'Raleway', 'Microsoft YaHei', sans-serif;
 }
 
 .blog-title a:hover { color: #FF706C; }
 
 .blog-description {
     text-align:center;
-    font-family: 'Raleway', 'Microsoft YaHei',sans-serif;
     color: rgba(255,255,255,0.5);
     font-weight: 400;
     line-height: 120%;
@@ -312,7 +317,6 @@ a.more-link,
     letter-spacing: 1px;
     margin-bottom: 20px;
     font-size: 13px;
-    font-family: 'Raleway','Microsoft YaHei', sans-serif;
     color: #FFF;
 }
 
@@ -360,7 +364,6 @@ a.more-link,
     padding: 8px 45px 8px 16px;
     background: rgba(0,0,0,0);
     border:1px solid #64717D;
-    font-family:'Microsoft YaHei',sans-serif;
     font-size: 1rem;
     border-radius: 6px;
     -moz-border-radius: 6px;
@@ -607,7 +610,7 @@ a.more-link,
 
 /* Post header --------------------------------------- */
 
-.post-header { margin-bottom: 3%;}
+.post-header { margin-bottom: 3%; text-shadow: rgba(255, 255, 255, 0.75) 0px 1px 0px}
 
 .post-meta {
     font-size: 0.8em;
@@ -695,7 +698,6 @@ a.more-link,
     color: #FFF;
     background: none;
     font-size: 1.3em;
-    font-family: 'Raleway', 'Microsoft YaHei',sans-serif;
 }
 
 .blog .format-quote blockquote p,
@@ -709,7 +711,6 @@ a.more-link,
     font-size: 0.9rem;
     text-align: center;
     letter-spacing: 2px;
-    font-family: 'Lato', 'Microsoft YaHei',sans-serif;
 }
 
 .blog .format-quote blockquote cite,
@@ -824,7 +825,6 @@ a.more-link,
     line-height: 150%;
     color: #666;
     background: #EEE;
-    font-family: 'Raleway', 'Helvetica Neue','Microsoft YaHei', sans-serif;
 }
 
 .post-content cite {
@@ -1327,7 +1327,6 @@ li > div.comment {
     background: #FAFAFA;
     font-size: 1em;
     color: #444;
-    font-family: 'Lato', 'Helvetica Neue', 'Microsoft YaHei',sans-serif;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1372,7 +1371,6 @@ li > div.comment {
     border: none;
     background: #272F38;
     color: #FFF;
-    font-family: 'Lato','Microsoft YaHei', sans-serif;
     font-size: 0.925rem;
     line-height: 1;
     border-radius: 4px;
@@ -1436,7 +1434,6 @@ li > div.comment {
 .page-title .name {
     display: block;
     text-align: center;
-    font-family: 'Raleway','Microsoft YaHei', sans-serif;
     font-size: 1.25em;
     margin-top: 15px;
     color: #666;
@@ -1507,7 +1504,6 @@ li > div.comment {
     padding: 4.5% 12% 4.5% 4.5%;
     margin: 0;
     background: #DDD;
-    font-family: 'Lato','Microsoft YaHei', sans-serif;
     font-size: 1.1rem;
     border: none;
     border-radius: 6px;
@@ -1960,3 +1956,5 @@ img#wpstats { display: none; }
     box-shadow:1px 1px 2px #292929;
     border:2px solid #fff;
 }
+
+p{font-family:'Microsoft YaHei'}

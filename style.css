@@ -1633,8 +1633,6 @@ li > div.comment {
     color: #777;
     padding: 3% 6%;
     font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .credits a { color: #777; }
@@ -1800,8 +1798,7 @@ img#wpstats { display: none; }
     /* Main content --------------------------------------- */
 
     .post-header { margin-bottom: 25px; }
-
-    .post-title { font-size: 1.75em; }
+    .post-title { font-size: 1.75em;margin:0 -6% 5px;padding:12px 6%;}
 
     .post-header .post-author,
     .post-header .date-sep:nth-of-type(2) { display: none; }

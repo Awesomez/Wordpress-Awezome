@@ -20,16 +20,15 @@
 <div class="credits">
     <div class="credits-inner">
         <p class="credits-left">
-            &copy; <?php echo date("Y") ?> <a href="<?php echo home_url(); ?>"
-                                              title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>&nbsp;<script type="text/javascript">
+            <span>&copy; 2013-<?php echo date("Y") ?> <a href="<?php echo home_url(); ?>" title="Awezome">Awezome</a></span> |
+            <span>Theme by <a target="_blank" href="http://www.andersnoren.se">AndersNoren</a></span> |
+            <span>Powered by <a target="_blank" href="http://wordpress.org">Wordpress</a></span>
+            &nbsp;<script type="text/javascript">
                 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
                 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb37656ab0ce23707530ac5fd19db48c9' type='text/javascript'%3E%3C/script%3E"));
             </script>
         </p>
-        <p class="credits-right">
-            <span>Theme by <a href="http://www.andersnoren.se">Anders Noren</a></span> &mdash; <a title="To the top"
-                                                                                                  class="tothetop">Up &uarr;</a>
-        </p>
+        <p class="credits-right"><a title="To the top" class="tothetop">Up &uarr;</a></p>
         <div class="clear"></div>
     </div>
     <!-- /credits-inner -->

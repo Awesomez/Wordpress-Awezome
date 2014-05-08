@@ -1611,13 +1611,13 @@ li > div.comment {
 
 
 .footer {
-    padding: 6%;
+    padding:3% 6% 4%;
     background: #272F38;
 }
 
 .footer .column {
-    width: 46%;
-    margin-left: 8%;
+    width: 100%;
+    margin-top:20px;
 }
 
 .footer .column:first-child { margin-left: 0; }

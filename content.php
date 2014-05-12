@@ -31,17 +31,11 @@
 	    <h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
 	    
 	    <div class="post-meta">
-		
 			<span class="post-date"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_time(get_option('date_format')); ?></a></span>
-			
 			<span class="date-sep"> / </span>
-				
 			<span class="post-author"><?php the_author_posts_link(); ?></span>
-			
 			<span class="date-sep"> / </span>
-			
-			<?php comments_popup_link( '<span class="comment">' . __( '0 Comments', 'wilson' ) . '</span>', __( '1 Comment', 'wilson' ), __( '% Comments', 'wilson' ) ); ?>
-			
+            <?php the_category(', '); ?>
 			<?php if( is_sticky() && !has_post_thumbnail() ) { ?> 
 			
 				<span class="date-sep"> / </span>

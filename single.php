@@ -83,13 +83,10 @@
 				</div> <!-- /post-header -->
 													                                    	    
 				<div class="post-content">
-					    		            			            	                                                                                            
 					<?php the_content(); ?>
-							
 					<?php wp_link_pages(); ?>
-								        
+                    <p>本文未经说明均为原创，转载请说明出处：<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_permalink(); ?></a></p>
 				</div> <!-- /post-content -->
-				            
 				<div class="clear"></div>
 				
 			</div> <!-- /post-inner -->
@@ -103,7 +100,7 @@
 		<div class="post-cat-tags">
     	<?php if( has_tag()) { ?><p class="post-tags"><span><?php _e('Tags:', 'wilson') ?></span> <?php the_tags('', ', '); ?></p><?php } ?>
 		</div> <!-- /post-cat-tags -->
-										
+
 		<div class="archive-nav post-nav">
 									
 			<?php

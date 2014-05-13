@@ -33,6 +33,7 @@
     </div>
     <div class="credits-inner">
         <p class="credits-left">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
             Awezome.Net is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
         </p>
         <div class="clear"></div>
